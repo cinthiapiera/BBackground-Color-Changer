@@ -1,7 +1,7 @@
 /* Estilos generales */
 body {
-    font-family: 'Poppins', sans-serif;  /* Cambia la fuente principal */
-    line-height: 1.6; /* Ajusta el espaciado entre líneas */
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
     display: flex;
@@ -18,14 +18,12 @@ header {
 }
 
 header h1 {
-    font-size: 2em; /* Cambia el tamaño de la fuente del encabezado */
-    margin-bottom: 10px; /* Añade espacio debajo del título */
+    font-size: 32px;
 }
 
 header img {
-    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
-    height: auto; /* Mantiene la proporción de la imagen */
-    
+    max-width: 100%;
+    height: auto; 
 }
 
 /* Estilos para el cuerpo de la página */
@@ -40,18 +38,14 @@ main {
 }
 
 button {
-    padding: 10px 20px; /* Añade relleno al botón */
-    font-size: 1em; /* Tamaño de la fuente del botón */
+    padding: 10px 20px; 
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
     cursor: pointer;
-    margin-bottom: 10px; /* Agregar margen inferior al botón */
-    font-family: 'Poppins', sans-serif; /* Aplica la fuente Poppins al botón */
-
 }
 
-/* Estilos para mostrar el código del color debajo del botón */
 p#codigoColor {
     display: none; /* Inicialmente oculto */
-    margin-top: 0; /* Eliminar margen superior */
 }
 
 /* Estilos para el pie de página */
